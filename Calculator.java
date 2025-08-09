@@ -8,8 +8,8 @@ public class Calculator {
         System.out.println("Enter second number:");
         int num2 = scanner.nextInt();
 
-        int sum = num1 + num2;
-        System.out.println("Sum: " + sum);
+        int difference = num1 - num2;
+        System.out.println("Difference: " + difference);
 
         scanner.close();
     }
